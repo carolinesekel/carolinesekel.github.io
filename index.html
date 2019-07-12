@@ -1,13 +1,211 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Caroline Sekel</title>
 </head>
 <body>
-  <h1>Caroline Sekel</h1>
-  <h3>Computer Science Undergraduate at the University of Connecticut</h3>
-  <ul>
-    <li>Software Development</li>
-    <li>Design</li>
-  </ul>
+  <header>
+    <div class="menu toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+    </div>
+    <div class="nav-top">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="landing-text">
+      <h1>Caroline Sekel</h1>
+      <h6>Student | Designer | Software Engineer</h6>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="contatiner">
+      <div class="profile-img">
+        <img src="" alt="">
+      </div>
+      <div class="about-details">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Myself</h6>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Natus accusamus eos vel nemo placeat. Architecto incidunt 
+          amet beatae, quasi vel ullam reprehenderit, labore deserunt 
+          totam voluptatem, distinctio qui. Deserunt, incidunt?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Natus accusamus eos vel nemo placeat. Architecto incidunt 
+          amet beatae, quasi vel ullam reprehenderit, labore deserunt 
+          totam voluptatem, distinctio qui. Deserunt, incidunt?
+        </p>
+      </div>
+      <div class="social-media">
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="icon-link">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="icon-link">
+                <i class="fab fa-linkedin-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="icon-link">
+                <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Services</h1>
+        <h6>What I Can Do</h6>
+      </div>
+      <div class="my-skills">
+          <div class="skill">
+            <div class="icon-container">
+                <i class="fas fa-layer-group"></i>
+            </div>
+            <h1>Software Development</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Natus accusamus eos vel nemo placeat. Architecto incidunt 
+            </p>
+          </div>
+          <div class="skill">
+              <div class="icon-container">
+                  <i class="fas fa-code-group"></i>
+              </div>
+              <h1>Design</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Natus accusamus eos vel nemo placeat. Architecto incidunt 
+              </p>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>What I've Done</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="#image1" alt="">
+          </div>
+          <div class="portfolio-description">
+              <h6>Web Development</h6>
+              <h1>Blog Website</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus accusamus eos vel nemo placeat. Architecto incidunt 
+              </p>
+              <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description">
+              <h6>Web Design</h6>
+              <h1>Other Website</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus accusamus eos vel nemo placeat. Architecto incidunt 
+              </p>
+              <a href="#" class="cta">View Details</a>
+          </div>
+          <div class="portfolio-img">
+            <img src="#image2" alt="">
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="#image3" alt="">
+          </div>
+          <div class="portfolio-description">
+            <h6>Software Development</h6>
+            <h1>ANother Website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Natus accusamus eos vel nemo placeat. Architecto incidunt 
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Work Experience</h1>
+            <h6>Past and Current Jobs</h6>
+          </div>
+          <div class="timeline">
+            <ul>
+              <li class="date" data.date="2017 - Present">
+                <h1>MediaMath</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Natus accusamus eos vel nemo placeat. Architecto incidunt 
+                </p>
+              </li>
+              <li class="date" data.date="2015 - Present">
+                <h1>BrainBot</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Natus accusamus eos vel nemo placeat. Architecto incidunt 
+                </p>
+              </li>
+              <li class="date" data.date="2016 - Present">
+                <h1>Blaze</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Natus accusamus eos vel nemo placeat. Architecto incidunt 
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's Chat</h6>
+        </div>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+          <label for="subject">Subject:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"> </textarea>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+        <p>&copy 2019 Caroline Sekel</p>
+      </div>
+    </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
 </html>
