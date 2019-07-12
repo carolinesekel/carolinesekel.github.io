@@ -3,4 +3,6 @@
 starting work from this tutorial: 
 https://www.youtube.com/watch?v=T7PnWnTgusc
 
-42:37
+https://www.w3schools.com/css/css_icons.asp
+
+53:43
