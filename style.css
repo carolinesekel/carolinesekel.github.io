@@ -44,7 +44,8 @@ header{
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: blue;
+    top: -100vh;
+    background-color: #003366;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -57,6 +58,75 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+li{
+    margin: 0 2rem;
+}
+
+.nav-link{
+    /*font-family: 'The Historia Demo', sans-serif;*/
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    background: linear-gradient(to top,blue, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-top.open{
+    top: 0;
+    border-radius: initial;
+}
+
+.menu-toggler{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    width: 5rem;
+    height: 4rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1500;
+    transition: transform 650ms ease-out;
+}
+
+.menu-toggler.open{
+    transform: rotate(-45deg);
+}
+
+.bar{
+    background: linear-gradient(to right,blue, green);
+    width: 100%;
+    height: 4px;
+    border-radius: .8rem;
+}
+
+.bar.half{
+    width: 50%;
+}
+
+.bar.start{
+    transform-origin: right;
+    transition: transform 650ms cubic-bezier(.54,-.81,.57,.57)
+}
+.open .bar.start{
+    transform: rotate(-450deg) translateX(.8rem);
+}
+.bar.end{
+    align-self: flex-end;
+    transform-origin: left;
+    transition: transform 650ms cubic-bezier(.54,-.81,.57,.57)
+}
+
+.open .bar.end{
+    transform: rotate(-450deg) translateX(-.8rem);
 }
 
 /*end header*/
