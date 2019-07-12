@@ -3,6 +3,6 @@ $(document).ready(
         $('.menu-toggler').on('click', function(){
             $(this).toggleClass('open');
             $('.nav-top').toggleClass('open');
-        })
+        });
     }
 );
