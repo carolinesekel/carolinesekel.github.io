@@ -3,6 +3,7 @@
 starting work from this tutorial: 
 https://www.youtube.com/watch?v=T7PnWnTgusc
 
-https://www.w3schools.com/css/css_icons.asp
+part2:
+https://www.youtube.com/watch?v=inCl01EJkts
 
-53:43
+https://medium.com/@bestfolios/10-great-fonts-for-portfolio-design-2debfe2f1bb9
