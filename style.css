@@ -8,20 +8,20 @@
 html{
     font-size: 10px;
     font-family: 'Roboto',sans-serif;
-    color: #eee;
+    color: #696969;
 }
 
 body{
     width: 100%;
     height: 100%;
     /*background: url(#imageurl) no-repeat center fixed;*/
-    background-color: navy;
+    background-color:white;
     background-size: cover;
 }
 
 a{
     text-decoration: none;
-    color: #eee;
+    color: #696969;
 }
 
 p{
@@ -31,6 +31,10 @@ p{
 
 img{
     width: 100%;
+}
+
+section{
+    padding: 6rem 0;
 }
 /*end global styling*/
 
@@ -44,12 +48,12 @@ img{
 }
 .section-heading{
     text-align: center;
-    margin-bottom: 10rem;
+    margin-bottom: 7rem;
+    margin-top: 10rem;
 }
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -63,7 +67,7 @@ img{
     bottom: -.5rem;
     left:50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, .75);
+    background-color:#696969
 }
 
 .section-heading h1::before{
@@ -93,7 +97,7 @@ img{
 /*header styling*/
 header{
     width: 100%;
-    height: 100vh;
+    height: 103vh;
 }
 
 .nav-top{
@@ -197,7 +201,7 @@ li{
 }
 
 .landing-text h1{
-    font-size: 20rem;
+    font-size: 12rem;
     /*font-family: "The Historia Demo", sans-serif;*/
     background: linear-gradient(to top,blue, green);
     background-clip: text;
@@ -417,12 +421,12 @@ li{
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color:navy; /*make this same as background*/
+    background-color:white; /*make this same as background*/
 }
 
 /*contact form*/
 .contact{
-    background-color: navy; /*make this same as background*/
+    background-color: white; /*make this same as background*/
 }
 form{
     width: 70%;
@@ -443,7 +447,7 @@ input, select, textarea{
 input[type="submit"]{
     width: initial;
     background-color: blue;
-    color: #eee;
+    color: #696969;
     padding: 1rem, 2rem;
     border: none;
     border-radius: .8rem;
@@ -452,7 +456,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    color: navy;
+    color: white;
     background-color: green;
 }
 /*end contact form*/
@@ -461,7 +465,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: navy; /*make this a shade darker than bakground color*/
+    background-color: white; /*make this a shade darker than bakground color*/
     padding: 2rem 0;
     position: relative;
 }
@@ -470,17 +474,18 @@ input[type="submit"]:hover{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #eee;
+    background-color: #696969;
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i{
     font-size: 2rem;
-    color: navy; /*make this a shade darker than bakground color, same as footer*/
+    color: white; /*make this a shade darker than bakground color, same as footer*/
     margin: auto;
 }
 
@@ -499,5 +504,29 @@ input[type="submit"]:hover{
     }
     100%{
         box-shadow: 0 0 0 0 rgba(253,87,191,0)
+    }
+}
+/*end of animation*/
+
+/*media queries*/
+@media screen and (max-width: 768px){
+    body{
+        /*background: url(images/image.jpg") no repeat center fixed*/
+        background-size: cover;
+    }
+    .landing-text h1{
+        font-size: 8rem;
+    }
+    .landing-text h6{
+        font-size: 1.5rem;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    li{
+        margin: 2rem 0;
+    }
+    .nav-link{
+        font-size: 4.5rem;
     }
 }
