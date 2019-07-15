@@ -396,7 +396,7 @@ li{
 
 /*contact form*/
 .contact{
-    background-color: white; /*make this same as background*/
+    background-color: #eee; /*make this same as background*/
 }
 form{
     width: 70%;
