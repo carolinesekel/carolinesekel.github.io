@@ -260,19 +260,11 @@ li{
     margin: 2rem -2px 2rem 0;    
 }
 
-.icon-container{
-    width: 10rem;
-    height: 10rem;
-    margin-bottom: 2rem;
-    display: flex;
-    transform: rotate(45deg);
-}
-
-.icon-container i{
+i{
      color: #EC0B43;
      font-size: 5rem;
      margin: auto;
-     transform: rotate(-45deg);
+     /*transform: rotate(-45deg);*/
 }
 /*end services*/
 
@@ -444,8 +436,10 @@ input[type="submit"]:focus{
 
 .up a{
     font-size: 2rem;
-    color:  #EC0B43; 
+    color:  #1B1725; 
     margin: auto;
+    transition: color 200ms;
+    transition: font-size 200ms;
 }
 
 .up a:hover{
@@ -462,7 +456,7 @@ input[type="submit"]:focus{
         font-size: 5rem;
     }
     .landing-text h6{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     .nav-list{
          flex-direction: column;
@@ -474,13 +468,13 @@ input[type="submit"]:focus{
         font-size: 1.5rem;
     }
     .about-heading h1{
-        font-size: 7rem;
+        font-size: 6rem;
     }
     .section-heading h1{
-        font-size: 2rem; 
+        font-size: 4rem; 
     }
     .section-heading h6{
-        font-size: .8rem; 
+        font-size: 1.5rem; 
     }
     .about-details .nav-list{
         flex-direction: initial;
@@ -488,13 +482,48 @@ input[type="submit"]:focus{
     .about-details li{
         margin: 0 2rem;
     }
-    .icon-container{
-        width: 7rem;
-        height: 7rem;
+    
+    .timeline ul{
+         margin: 0 0 0 auto;
     }
-    .icon-container i{
-        font-size: 4rem;
+    .timeline .date:before{
+        left: -20rem;
+    }
+    .timeline .date:after{
+        left: -5.9rem;
     }
 }
+ @media screen and (max-width: 600px){
+     .menu-toggler{
+         right: 2rem;
+         top: 2rem;
+     }
+     .landing-text h1{
+        font-size: 3rem;
+    }
+    .landing-text h6{
+        font-size: 1rem;
+    }
+    .nav-link{
+        font-size: .8rem;
+    }
+    .about .container{
+        flex-direction: column;
+    }
+    .profile-img{
+        margin: 0 0 7rem 0;
+    }
+    .portfolio-item{
+        flex-direction: column;
+    }
+    .portfolio-img{
+        margin: 0 0 2rem 0;
+        order: 1;
+    }
+    .portfolio-description{
+        margin: 0;
+        order: 2;
+    }
+ }
 
 /*end media queries*/
