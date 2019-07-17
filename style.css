@@ -8,7 +8,7 @@
 html{
     font-size: 10px;
     font-family: 'Roboto',sans-serif;
-    color: #696969;
+    color: #474350;
 }
 
 body{
@@ -21,7 +21,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #696969;
+    color: #474350;
 }
 
 p{
@@ -107,12 +107,12 @@ li{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     padding: 1rem;
-    color: black;
+    color: #1B1725;
 }
 
 .nav-link:hover,
 .nav-link:focus{
-    color: #990033;
+    color: #EC0B43;
 }
 
 .nav-top.open{
@@ -138,8 +138,12 @@ li{
     transform: rotate(-45deg);
 }
 
+.menu-toggler:hover .bar, 
+.menu-toggler:focus .bar{
+    background-color: #EC0B43;
+}
 .bar{
-    background: black;
+    background: #1B1725;
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -179,7 +183,7 @@ li{
 .landing-text h1{
     font-size: 8rem;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #1B1725;
     padding: 1rem;
     user-select: none;
 }
@@ -223,20 +227,14 @@ li{
     margin-top: 5rem;
 }
 .social-media i{
+    color: #1B1725;
     font-size: 5rem;
     transition: color 650ms;
 }
 /*hover is the facebook color, repreat this for other social media icons? or change to just the same emphasis for all*/
-.fa-facebook:hover{
-    color: #3b5998;
-}
-
-.fa-linkedin:hover{
-    color: #0077B5;
-}
-
-.fa-github:hover{
-    color: #DCDCDC;
+.social-media i:hover,
+.social-media i:focus{
+    color:#EC0B43;
 }
 /*end of about section*/
 
@@ -266,15 +264,13 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid blue;
-    background-color: green;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-     color: blue;
+     color: #EC0B43;
      font-size: 5rem;
      margin: auto;
      transform: rotate(-45deg);
@@ -327,13 +323,13 @@ li{
 }
 
 .portfolio-description .cta:hover{
-    color: lightskyblue;
+    color: #EC0B43;
 }
 
 /*timeline*/
 
 .timeline ul{
-    border-left: 4px solid green;
+    border-left: 4px solid #EC0B43;
     border-radius: .8rem;
     background-color: rgba(0,0,0,.05);
     position: relative;
@@ -383,7 +379,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px blue;
+    box-shadow: 0 0 0 4px #EC0B43;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -409,12 +405,12 @@ input, select, textarea{
      padding: 1rem;
      margin-bottom: 5px;
      border: none;
-     outline-color: blue;
+     outline-color: #EC0B43;
 }
 input[type="submit"]{
     width: initial;
-    background-color: blue;
-    color: #696969;
+    background-color: #eee;
+    color: #EC0B43;
     padding: 1rem, 2rem;
     border: none;
     border-radius: .8rem;
@@ -424,7 +420,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     color: white;
-    background-color: green;
+    background-color: #EC0B43;
 }
 /*end contact form*/
 
@@ -450,7 +446,7 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-.up i{
+.up a{
     font-size: 2rem;
     color: white; /*make this a shade darker than bakground color, same as footer*/
     margin: auto;
@@ -464,13 +460,13 @@ input[type="submit"]:hover{
 @keyframes pulse{
     /*this is pulsing with the pink - change that to different color*/
     0%{
-        box-shadow: 0 0 0 0 rgba(253,87,191,0.99)
+        box-shadow: 0 0 0 0 rgba(236,11,67,0.99)
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253,87,191,0)
+        box-shadow: 0 0 0 2rem rgba(236,11,67,0)
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253,87,191,0)
+        box-shadow: 0 0 0 0 rgba(236,11,67,0)
     }
 }
 /*end of animation*/
