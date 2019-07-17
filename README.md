@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=T7PnWnTgusc
 
 part2:
 https://www.youtube.com/watch?v=inCl01EJkts
+17:25
 
 font stuff:
 https://developers.google.com/fonts/docs/getting_started
