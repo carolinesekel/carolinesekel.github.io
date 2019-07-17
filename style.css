@@ -318,7 +318,7 @@ li{
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: lightblue;
+    color: #EC0B43;
     transition: color 650ms;
 }
 
@@ -330,8 +330,6 @@ li{
 
 .timeline ul{
     border-left: 4px solid #EC0B43;
-    border-radius: .8rem;
-    background-color: rgba(0,0,0,.05);
     position: relative;
     margin: 0 auto;
     padding: 5rem;
@@ -384,13 +382,14 @@ li{
     left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color:white; /*make this same as background*/
+    background-color:white; 
 }
 
 /*contact form*/
 .contact{
-    background-color: #eee; /*make this same as background*/
+    background-color:white; 
 }
+
 form{
     width: 70%;
     margin: 0 auto;
@@ -404,21 +403,22 @@ input, select, textarea{
      width: 100%;
      padding: 1rem;
      margin-bottom: 5px;
-     border: none;
+     border: 1px solid #474350;
      outline-color: #EC0B43;
 }
 input[type="submit"]{
     width: initial;
-    background-color: #eee;
+    background-color: white;
     color: #EC0B43;
-    padding: 1rem, 2rem;
-    border: none;
+    padding: 1rem 2rem;
+    border: 1px solid #EC0B43;
     border-radius: .8rem;
     cursor: pointer;
     transition: background-color 650ms;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover,
+input[type="submit"]:focus{
     color: white;
     background-color: #EC0B43;
 }
@@ -428,7 +428,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: white; /*make this a shade darker than bakground color*/
+    background-color: #eee;
     padding: 2rem 0;
     position: relative;
 }
@@ -437,36 +437,23 @@ input[type="submit"]:hover{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #696969;
-    top: -2.5rem;
+    top: -4.5rem;
     right: 5rem;
-    border-radius: 100%;
     display: flex;
-    animation: pulse 2s infinite;
     cursor: pointer;
 }
 
 .up a{
     font-size: 2rem;
-    color: white; /*make this a shade darker than bakground color, same as footer*/
+    color:  #EC0B43; 
     margin: auto;
 }
 
+.up a:hover{
+    color: #EC0B43;
+    font-size: 3rem;
+}
 .copyright p{
     font-size: 1.4rem;
 }
 
-/*animation*/
-@keyframes pulse{
-    /*this is pulsing with the pink - change that to different color*/
-    0%{
-        box-shadow: 0 0 0 0 rgba(236,11,67,0.99)
-    }
-    70%{
-        box-shadow: 0 0 0 2rem rgba(236,11,67,0)
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(236,11,67,0)
-    }
-}
-/*end of animation*/
