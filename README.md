@@ -6,6 +6,7 @@ https://www.youtube.com/watch?v=T7PnWnTgusc
 
 part 2:
 https://www.youtube.com/watch?v=inCl01EJkts
+(@ 20:08)
 
 colors: 
 background - white
