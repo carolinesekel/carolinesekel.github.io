@@ -1,18 +1,11 @@
-# carolinesekel.github.io
+# carolinesekel.github.io (branch: responsive-tutorial)
 
-starting work from this tutorial: 
+Working from these tutorials: 
+part 1:
 https://www.youtube.com/watch?v=T7PnWnTgusc
 
-part2:
+part 2:
 https://www.youtube.com/watch?v=inCl01EJkts
-17:25
-
-font stuff:
-https://developers.google.com/fonts/docs/getting_started
-
-
-https://medium.com/@bestfolios/10-great-fonts-for-portfolio-design-2debfe2f1bb9
-
 
 colors: 
 background - white
