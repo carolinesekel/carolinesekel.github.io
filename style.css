@@ -1,0 +1,52 @@
+/*reusable styles*/
+main {
+    font-family: "Roboto Mono", monospace;
+    padding-top: 4em;
+}
+section{
+    padding: 2em;
+}
+ul{
+    list-style: none;
+}
+/*end reusable*/
+
+/*navigation*/
+header {
+    font-family: "Roboto Mono", monospace;
+    height: 4em;
+    position: fixed;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+.up {
+    top: -4em;
+}
+.nav-list{
+  float: right;
+  margin-right: 1.5em;
+  list-style: none;
+  padding: .25em;
+}
+.nav-item{
+  float: left;
+  padding: .5em;
+}
+/*end navigation*/
+
+/*about section*/
+
+/*end about*/
+
+/*projects section*/
+
+/*end projects*/
+
+/*experience section*/
+
+/*end experience*/
+
+/*contact section*/
+
+/*end contact*/
