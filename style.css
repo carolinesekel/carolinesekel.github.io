@@ -44,7 +44,21 @@ header {
 /*end projects*/
 
 /*experience section*/
-
+.job_list{
+  display: flex;
+  flex-direction: column;
+}
+.job{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  justify-content: space-between;
+}
+.job_description{
+  grid-column: 2-start;
+}
+.job_date{
+  grid-column: 7-end;
+}
 /*end experience*/
 
 /*contact section*/
